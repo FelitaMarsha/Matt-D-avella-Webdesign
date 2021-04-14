@@ -1,0 +1,157 @@
+
+body { 
+  margin: 0px;
+  color: #fff;
+  background-color: #b1b6b9;
+
+}
+
+@font-face {
+    font-family: BluuNext-Titling;
+    src: local("BluuNext-Titling"),
+         local("BluuNext-Titling"),
+         url(../fonts/BluuNext-Titling.otf);
+ }
+
+
+.body_section { 
+  margin: 0px;
+  color: #fff;
+  background: #b1b6b9;
+}
+
+.main_wrapper
+{
+    margin: 0 auto;
+    width: 1110px !important;
+}
+.logo
+{
+    margin-top: 30px;
+    float: left;
+    width: 100%;
+    padding: 20px 0px;
+}
+.image_block
+{
+    margin-top: 50px;
+}
+.content_area
+{
+    float: left;
+    width: 60%;
+    padding-left: 5%;
+    padding-right: 5%;
+    text-align: center;
+    margin-top: 7%;
+}
+.content_section p
+{
+        font-family: 'Archivo Narrow', sans-serif;
+        font-size: 21px;
+        color: #fff;
+		width: 80%;
+		padding-left: 100px;
+		padding-right: 100px;
+	
+}
+.content_section h1
+{
+    font-size: 65px;
+    font-family: BluuNext-Titling;
+    padding-bottom: 20px;
+    color: #fff;
+}
+.full_width_content
+{
+    margin-top: 100px;
+    width: 100%;
+    padding-left: 0px;
+}
+.image_block
+{
+    float: left;
+    width: 100%;
+    text-align: center;
+}
+
+
+
+.bg_img
+{
+    position: fixed;
+    top: -50%;
+    left: -50%;
+    width: 200%;
+    height: 200%;
+}
+.bg_img img
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    min-width: 50%;
+    min-height: 50%;
+}
+.content_block
+{
+    margin: 0;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    padding:15px;
+    color: #fff;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%) 
+}
+.content_block p
+{
+	    font-family: 'Archivo Narrow', sans-serif;
+	    font-size: 36px;
+        margin-top: 0px;
+}
+.content_block h1
+{
+	font-size: 70px;
+	font-family: BluuNext-Titling;
+	border-bottom:3px solid #fff;
+	padding-bottom: 20px;
+    margin-bottom: 15px;
+}
+.content_block a
+{
+	display: inline-block;
+	border-radius: 5px;
+	padding:3px 30px;
+	background: #fff;
+	text-transform: uppercase;
+	color: #7a8487;
+	font-family: BluuNext-Titling;
+	font-size: 30px;
+    text-decoration: none;
+}
+.content_block a:hover
+{
+	color: #000;
+	text-decoration: none;
+}
+.content_section
+{
+    
+    float: left;
+    width: 100%;
+}
+.first_section
+{
+    width: 30%;
+    float: left;
+}
+.first_section img
+{
+    width: 100%;
+}
+
